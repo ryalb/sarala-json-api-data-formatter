@@ -80,5 +80,5 @@ fabric.properties
 /mix-manifest.json
 /node_modules/
 /.idea/
-/build/
+# /build/
 /coverage/
