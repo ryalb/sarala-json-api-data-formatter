@@ -65,6 +65,8 @@ export default class Formatter {
     }
 
     deserializeOne (data) {
+        if (!data) return {};
+
         const formatted = {}
         formatted.id = data.id
         formatted.type = data.type
