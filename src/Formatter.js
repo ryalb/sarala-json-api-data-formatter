@@ -55,6 +55,8 @@ export default class Formatter {
     }
 
     deserializeOne (data) {
+        if (!data) return {}
+
         let formatted = {}
         formatted.id = data.id
         formatted.type = data.type
